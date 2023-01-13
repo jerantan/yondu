@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "firstname": "Test",
+  "lastname": "Testing",
+  "address": "Address Test",
+  "postcode": "postcode-test",
+  "contact": "09123456789",
+  "email": "test@testing.com",
+  "username": "001111",
+  "password": "$2b$10$dkhDQ6UqDDO2SU5Of60Ph.pgZdgET23lABX9lLCUdomSnUSuA0B/q",
+  "level": "Admin",
+  "isactive": 1
+}

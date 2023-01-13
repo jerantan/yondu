@@ -1,0 +1,19 @@
+[
+  {
+    "table": "users",
+    "schema": [
+      "`id` int(11) AUTO_INCREMENT PRIMARY KEY,",
+      "`firstname` varchar(50) NOT NULL,",
+      "`lastname` varchar(50) NOT NULL,",
+      "`address` varchar(100) NOT NULL,",
+      "`postcode` varchar(20) NOT NULL,",
+      "`contact` varchar(20) NOT NULL,",
+      "`email` varchar(50) NOT NULL,",
+      "`username` varchar(50) NOT NULL,",
+      "`password` varchar(100) NOT NULL,",
+      "`level` varchar(50) NOT NULL,",
+      "`isactive` tinyint(1) NOT NULL"
+    ],
+    "index": ["firstname", "lastname", "username", "password", "level"]
+  }
+]

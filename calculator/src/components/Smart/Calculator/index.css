@@ -1,0 +1,19 @@
+.item {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.display {
+  grid-column: span 4;
+  font-size: 60px;
+  padding: 0px 10px;
+  text-align: right;
+  cursor: default;
+}
+
+.item:nth-child(18) {
+  grid-column: span 2;
+}
